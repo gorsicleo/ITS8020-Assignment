@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B35916E72B17CB09006251ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916E62B17CB09006251ED /* main.swift */; };
+		B35916F02B17D17D006251ED /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916EF2B17D17D006251ED /* MenuItem.swift */; };
+		B35916F32B17D3A0006251ED /* StorageSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F22B17D3A0006251ED /* StorageSpaceController.swift */; };
+		B35916F52B17D408006251ED /* StorageSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F42B17D408006251ED /* StorageSpaceModel.swift */; };
+		B35916F72B17D453006251ED /* StorageSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F62B17D453006251ED /* StorageSpaceView.swift */; };
+		B35916FA2B17E11C006251ED /* StorageInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F92B17E11C006251ED /* StorageInformationView.swift */; };
+		B35916FC2B17E12B006251ED /* StorageInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916FB2B17E12B006251ED /* StorageInformationModel.swift */; };
+		B35916FE2B17E137006251ED /* StorageInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916FD2B17E137006251ED /* StorageInformationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		B35916E32B17CB09006251ED /* ITS8020-Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ITS8020-Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35916E62B17CB09006251ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B35916EF2B17D17D006251ED /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		B35916F22B17D3A0006251ED /* StorageSpaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceController.swift; sourceTree = "<group>"; };
+		B35916F42B17D408006251ED /* StorageSpaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceModel.swift; sourceTree = "<group>"; };
+		B35916F62B17D453006251ED /* StorageSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceView.swift; sourceTree = "<group>"; };
+		B35916F92B17E11C006251ED /* StorageInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationView.swift; sourceTree = "<group>"; };
+		B35916FB2B17E12B006251ED /* StorageInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationModel.swift; sourceTree = "<group>"; };
+		B35916FD2B17E137006251ED /* StorageInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +71,40 @@
 		B35916E52B17CB09006251ED /* ITS8020-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B35916F82B17E08C006251ED /* StorageInformation */,
+				B35916F12B17D348006251ED /* StorageSpace */,
+				B35916EE2B17D168006251ED /* Menu */,
 				B35916E62B17CB09006251ED /* main.swift */,
 			);
 			path = "ITS8020-Assignment";
+			sourceTree = "<group>";
+		};
+		B35916EE2B17D168006251ED /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B35916EF2B17D17D006251ED /* MenuItem.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B35916F12B17D348006251ED /* StorageSpace */ = {
+			isa = PBXGroup;
+			children = (
+				B35916F22B17D3A0006251ED /* StorageSpaceController.swift */,
+				B35916F42B17D408006251ED /* StorageSpaceModel.swift */,
+				B35916F62B17D453006251ED /* StorageSpaceView.swift */,
+			);
+			path = StorageSpace;
+			sourceTree = "<group>";
+		};
+		B35916F82B17E08C006251ED /* StorageInformation */ = {
+			isa = PBXGroup;
+			children = (
+				B35916F92B17E11C006251ED /* StorageInformationView.swift */,
+				B35916FB2B17E12B006251ED /* StorageInformationModel.swift */,
+				B35916FD2B17E137006251ED /* StorageInformationController.swift */,
+			);
+			path = StorageInformation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35916F52B17D408006251ED /* StorageSpaceModel.swift in Sources */,
+				B35916FA2B17E11C006251ED /* StorageInformationView.swift in Sources */,
+				B35916F32B17D3A0006251ED /* StorageSpaceController.swift in Sources */,
 				B35916E72B17CB09006251ED /* main.swift in Sources */,
+				B35916FE2B17E137006251ED /* StorageInformationController.swift in Sources */,
+				B35916F02B17D17D006251ED /* MenuItem.swift in Sources */,
+				B35916F72B17D453006251ED /* StorageSpaceView.swift in Sources */,
+				B35916FC2B17E12B006251ED /* StorageInformationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
