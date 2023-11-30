@@ -14,6 +14,7 @@ struct StorageInformationView {
         print("Drive name: \(model.driveName)")
         print("Is internal: \(model.isInternal)")
         print("Is read only: \(model.isReadOnly)")
+        print("-------------------------------")
     }
 
     func displayError() {
