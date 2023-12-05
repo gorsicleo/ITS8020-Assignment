@@ -8,7 +8,8 @@
 import Foundation
 
 /// Models user selection
-enum MenuItem: Int {
+enum MainMenuItem: Int {
     case storageSpace = 1
     case storageInformation = 2
+    case fileManagerMenu = 3
 }

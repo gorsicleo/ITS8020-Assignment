@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B35916E72B17CB09006251ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916E62B17CB09006251ED /* main.swift */; };
-		B35916F02B17D17D006251ED /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916EF2B17D17D006251ED /* MenuItem.swift */; };
+		B35916F02B17D17D006251ED /* MainMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916EF2B17D17D006251ED /* MainMenuItem.swift */; };
 		B35916F32B17D3A0006251ED /* StorageSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F22B17D3A0006251ED /* StorageSpaceController.swift */; };
 		B35916F52B17D408006251ED /* StorageSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F42B17D408006251ED /* StorageSpaceModel.swift */; };
 		B35916F72B17D453006251ED /* StorageSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F62B17D453006251ED /* StorageSpaceView.swift */; };
 		B35916FA2B17E11C006251ED /* StorageInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916F92B17E11C006251ED /* StorageInformationView.swift */; };
 		B35916FC2B17E12B006251ED /* StorageInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916FB2B17E12B006251ED /* StorageInformationModel.swift */; };
 		B35916FE2B17E137006251ED /* StorageInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35916FD2B17E137006251ED /* StorageInformationController.swift */; };
+		B362AF292B1F73780080598E /* FileCopyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B362AF282B1F73780080598E /* FileCopyOperation.swift */; };
+		B3DFC3B62B1F76A300390387 /* FileDeleteOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFC3B52B1F76A300390387 /* FileDeleteOperation.swift */; };
+		B3DFC3B82B1F778100390387 /* FileReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFC3B72B1F778100390387 /* FileReadOperation.swift */; };
+		B3DFC3BA2B1F780F00390387 /* FileWriteOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFC3B92B1F780F00390387 /* FileWriteOperation.swift */; };
+		B3EEBF5A2B18D77B00C4EEE1 /* FileManagerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF592B18D77B00C4EEE1 /* FileManagerMenu.swift */; };
+		B3EEBF632B18D88D00C4EEE1 /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF622B18D88D00C4EEE1 /* FileManagerView.swift */; };
+		B3EEBF652B18D89B00C4EEE1 /* FileManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF642B18D89B00C4EEE1 /* FileManagerController.swift */; };
+		B3EEBF672B18D8A800C4EEE1 /* FileOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF662B18D8A800C4EEE1 /* FileOperationModel.swift */; };
+		B3EEBF692B18DB3F00C4EEE1 /* FileInformationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF682B18DB3F00C4EEE1 /* FileInformationOperation.swift */; };
+		B3EEBF6B2B18DB6F00C4EEE1 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EEBF6A2B18DB6F00C4EEE1 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,13 +42,23 @@
 /* Begin PBXFileReference section */
 		B35916E32B17CB09006251ED /* ITS8020-Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ITS8020-Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35916E62B17CB09006251ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B35916EF2B17D17D006251ED /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		B35916EF2B17D17D006251ED /* MainMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuItem.swift; sourceTree = "<group>"; };
 		B35916F22B17D3A0006251ED /* StorageSpaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceController.swift; sourceTree = "<group>"; };
 		B35916F42B17D408006251ED /* StorageSpaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceModel.swift; sourceTree = "<group>"; };
 		B35916F62B17D453006251ED /* StorageSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSpaceView.swift; sourceTree = "<group>"; };
 		B35916F92B17E11C006251ED /* StorageInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationView.swift; sourceTree = "<group>"; };
 		B35916FB2B17E12B006251ED /* StorageInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationModel.swift; sourceTree = "<group>"; };
 		B35916FD2B17E137006251ED /* StorageInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInformationController.swift; sourceTree = "<group>"; };
+		B362AF282B1F73780080598E /* FileCopyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCopyOperation.swift; sourceTree = "<group>"; };
+		B3DFC3B52B1F76A300390387 /* FileDeleteOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDeleteOperation.swift; sourceTree = "<group>"; };
+		B3DFC3B72B1F778100390387 /* FileReadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReadOperation.swift; sourceTree = "<group>"; };
+		B3DFC3B92B1F780F00390387 /* FileWriteOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriteOperation.swift; sourceTree = "<group>"; };
+		B3EEBF592B18D77B00C4EEE1 /* FileManagerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerMenu.swift; sourceTree = "<group>"; };
+		B3EEBF622B18D88D00C4EEE1 /* FileManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
+		B3EEBF642B18D89B00C4EEE1 /* FileManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerController.swift; sourceTree = "<group>"; };
+		B3EEBF662B18D8A800C4EEE1 /* FileOperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationModel.swift; sourceTree = "<group>"; };
+		B3EEBF682B18DB3F00C4EEE1 /* FileInformationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInformationOperation.swift; sourceTree = "<group>"; };
+		B3EEBF6A2B18DB6F00C4EEE1 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,7 @@
 		B35916E52B17CB09006251ED /* ITS8020-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B3EEBF5B2B18D82D00C4EEE1 /* FileManager */,
 				B35916F82B17E08C006251ED /* StorageInformation */,
 				B35916F12B17D348006251ED /* StorageSpace */,
 				B35916EE2B17D168006251ED /* Menu */,
@@ -82,7 +103,8 @@
 		B35916EE2B17D168006251ED /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				B35916EF2B17D17D006251ED /* MenuItem.swift */,
+				B35916EF2B17D17D006251ED /* MainMenuItem.swift */,
+				B3EEBF592B18D77B00C4EEE1 /* FileManagerMenu.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -105,6 +127,62 @@
 				B35916FD2B17E137006251ED /* StorageInformationController.swift */,
 			);
 			path = StorageInformation;
+			sourceTree = "<group>";
+		};
+		B3EEBF5B2B18D82D00C4EEE1 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				B3EEBF612B18D85F00C4EEE1 /* FileWrite */,
+				B3EEBF602B18D85200C4EEE1 /* FileRead */,
+				B3EEBF5F2B18D84900C4EEE1 /* FileDelete */,
+				B3EEBF5D2B18D83E00C4EEE1 /* FileCopy */,
+				B3EEBF5C2B18D83400C4EEE1 /* FileInformation */,
+				B3EEBF622B18D88D00C4EEE1 /* FileManagerView.swift */,
+				B3EEBF642B18D89B00C4EEE1 /* FileManagerController.swift */,
+				B3EEBF662B18D8A800C4EEE1 /* FileOperationModel.swift */,
+				B3EEBF6A2B18DB6F00C4EEE1 /* Operation.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		B3EEBF5C2B18D83400C4EEE1 /* FileInformation */ = {
+			isa = PBXGroup;
+			children = (
+				B3EEBF682B18DB3F00C4EEE1 /* FileInformationOperation.swift */,
+			);
+			path = FileInformation;
+			sourceTree = "<group>";
+		};
+		B3EEBF5D2B18D83E00C4EEE1 /* FileCopy */ = {
+			isa = PBXGroup;
+			children = (
+				B362AF282B1F73780080598E /* FileCopyOperation.swift */,
+			);
+			path = FileCopy;
+			sourceTree = "<group>";
+		};
+		B3EEBF5F2B18D84900C4EEE1 /* FileDelete */ = {
+			isa = PBXGroup;
+			children = (
+				B3DFC3B52B1F76A300390387 /* FileDeleteOperation.swift */,
+			);
+			path = FileDelete;
+			sourceTree = "<group>";
+		};
+		B3EEBF602B18D85200C4EEE1 /* FileRead */ = {
+			isa = PBXGroup;
+			children = (
+				B3DFC3B72B1F778100390387 /* FileReadOperation.swift */,
+			);
+			path = FileRead;
+			sourceTree = "<group>";
+		};
+		B3EEBF612B18D85F00C4EEE1 /* FileWrite */ = {
+			isa = PBXGroup;
+			children = (
+				B3DFC3B92B1F780F00390387 /* FileWriteOperation.swift */,
+			);
+			path = FileWrite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,13 +244,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35916F52B17D408006251ED /* StorageSpaceModel.swift in Sources */,
+				B3EEBF6B2B18DB6F00C4EEE1 /* Operation.swift in Sources */,
 				B35916FA2B17E11C006251ED /* StorageInformationView.swift in Sources */,
+				B3EEBF632B18D88D00C4EEE1 /* FileManagerView.swift in Sources */,
 				B35916F32B17D3A0006251ED /* StorageSpaceController.swift in Sources */,
 				B35916E72B17CB09006251ED /* main.swift in Sources */,
 				B35916FE2B17E137006251ED /* StorageInformationController.swift in Sources */,
-				B35916F02B17D17D006251ED /* MenuItem.swift in Sources */,
+				B3EEBF652B18D89B00C4EEE1 /* FileManagerController.swift in Sources */,
+				B3DFC3B62B1F76A300390387 /* FileDeleteOperation.swift in Sources */,
+				B3EEBF5A2B18D77B00C4EEE1 /* FileManagerMenu.swift in Sources */,
+				B35916F02B17D17D006251ED /* MainMenuItem.swift in Sources */,
+				B3EEBF672B18D8A800C4EEE1 /* FileOperationModel.swift in Sources */,
+				B3EEBF692B18DB3F00C4EEE1 /* FileInformationOperation.swift in Sources */,
 				B35916F72B17D453006251ED /* StorageSpaceView.swift in Sources */,
 				B35916FC2B17E12B006251ED /* StorageInformationModel.swift in Sources */,
+				B3DFC3BA2B1F780F00390387 /* FileWriteOperation.swift in Sources */,
+				B362AF292B1F73780080598E /* FileCopyOperation.swift in Sources */,
+				B3DFC3B82B1F778100390387 /* FileReadOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import Foundation
 
-var currentSelection: MenuItem?
+var currentSelection: MainMenuItem?
 
 while true {
 
@@ -17,11 +17,12 @@ while true {
         Please select options from menu
             1. Disk space
             2. Disk information
+            3. File manager menu
         Type number in front of the option below:
     """)
 
     let userInput = readLine() ?? ""
-    currentSelection = MenuItem(rawValue: Int(userInput) ?? -1)
+    currentSelection = MainMenuItem(rawValue: Int(userInput) ?? -1)
 
     switch currentSelection {
     case .storageSpace:
@@ -29,6 +30,9 @@ while true {
         controller.start()
     case .storageInformation:
         let controller = StorageInfromationController()
+        controller.start()
+    case .fileManagerMenu:
+        let controller = FileManagerController()
         controller.start()
     case nil:
         print("Please choose valid choice")
